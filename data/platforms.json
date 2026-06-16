@@ -1,0 +1,131 @@
+[
+  {
+    "Name": "Blue Team Labs Online",
+    "Description": "Defensive security labs focused on investigations, forensics, malware analysis, and practical blue-team workflows.",
+    "URL": "https://blueteamlabs.online/"
+  },
+  {
+    "Name": "Crackmes.one",
+    "Description": "Community archive of reverse engineering challenges for practicing binary analysis and software cracking.",
+    "URL": "https://crackmes.one/"
+  },
+  {
+    "Name": "CryptoHack",
+    "Description": "Cryptography challenge platform that teaches practical crypto attacks through puzzle-style exercises.",
+    "URL": "https://cryptohack.org/"
+  },
+  {
+    "Name": "CTFlearn",
+    "Description": "Beginner-friendly CTF platform with challenges across common security categories.",
+    "URL": "https://ctflearn.com/"
+  },
+  {
+    "Name": "CyberDefenders",
+    "Description": "Blue-team training platform with investigation, digital forensics, malware analysis, and threat hunting labs.",
+    "URL": "https://cyberdefenders.org/"
+  },
+  {
+    "Name": "Exploit Education",
+    "Description": "Security training projects for memory corruption, exploitation, debugging, and low-level systems practice.",
+    "URL": "https://exploit.education/"
+  },
+  {
+    "Name": "GOAD",
+    "Description": "Game Of Active Directory is a vulnerable Active Directory lab for practicing common enterprise pentest techniques.",
+    "SelfHosted": true,
+    "URL": "https://github.com/Orange-Cyberdefense/GOAD"
+  },
+  {
+    "Name": "Hack The Box",
+    "Description": "Cybersecurity training platform with realistic labs, machines, challenges, battlegrounds, and team features.",
+    "URL": "https://www.hackthebox.com/"
+  },
+  {
+    "Name": "Hacker101 CTF",
+    "Description": "Web security CTF from HackerOne with progressive challenges for learning bug bounty skills.",
+    "URL": "https://ctf.hacker101.com/"
+  },
+  {
+    "Name": "HackThisSite",
+    "Description": "Classic security challenge site with realistic missions, application flaws, crypto, forensics, and programming tasks.",
+    "URL": "https://www.hackthissite.org/"
+  },
+  {
+    "Name": "Microcorruption",
+    "Description": "Embedded security wargame for reverse engineering firmware and exploiting microcontroller binaries.",
+    "URL": "https://microcorruption.com/"
+  },
+  {
+    "Name": "OverTheWire",
+    "Description": "Long-running wargame collection covering Linux basics, web exploitation, cryptography, and advanced security topics.",
+    "URL": "https://overthewire.org/wargames/"
+  },
+  {
+    "Name": "PentesterLab",
+    "Description": "Hands-on web application security exercises with labs for common vulnerabilities and exploitation techniques.",
+    "URL": "https://pentesterlab.com/"
+  },
+  {
+    "Name": "picoCTF",
+    "Description": "Educational CTF platform with accessible security challenges for students, beginners, and classrooms.",
+    "URL": "https://picoctf.org/"
+  },
+  {
+    "Name": "PortSwigger Web Security Academy",
+    "Description": "Interactive web security academy with labs for Burp Suite workflows and modern application vulnerabilities.",
+    "URL": "https://portswigger.net/web-security"
+  },
+  {
+    "Name": "pwnable.kr",
+    "Description": "Wargame focused on binary exploitation, Linux internals, memory corruption, and low-level security puzzles.",
+    "URL": "https://pwnable.kr/"
+  },
+  {
+    "Name": "pwn.college",
+    "Description": "Structured cybersecurity education platform with modules for Linux, assembly, exploitation, web, crypto, and more.",
+    "URL": "https://pwn.college/"
+  },
+  {
+    "Name": "RingZer0 Team Online CTF",
+    "Description": "Online CTF with challenges spanning web, crypto, reverse engineering, forensics, shellcoding, and sysadmin topics.",
+    "URL": "https://ringzer0ctf.com/"
+  },
+  {
+    "Name": "Root-Me",
+    "Description": "Large security learning platform with challenges, virtual environments, and community-ranked practice tracks.",
+    "URL": "https://www.root-me.org/"
+  },
+  {
+    "Name": "TryHackMe",
+    "Description": "Guided cybersecurity learning platform with rooms, paths, labs, CTF-style exercises, and team training.",
+    "URL": "https://tryhackme.com/"
+  },
+  {
+    "Name": "VulnHub",
+    "Description": "Archive of vulnerable virtual machines and boot-to-root practice boxes for offline lab environments.",
+    "SelfHosted": true,
+    "URL": "https://www.vulnhub.com/"
+  },
+  {
+    "Name": "Webhacking.kr",
+    "Description": "Web exploitation challenge platform with puzzle-like tasks for browser, server, and application security practice.",
+    "URL": "https://webhacking.kr/"
+  },
+  {
+    "Name": "WeChall",
+    "Description": "Challenge aggregation and ranking hub that connects many hacking and puzzle platforms.",
+    "URL": "https://www.wechall.net/"
+  },
+  {
+    "Name": "Exploit Exercises",
+    "Description": "Legacy exploitation challenge collection superseded by Exploit Education and kept here for historical reference.",
+    "Status": "inactive",
+    "URL": "https://exploit-exercises.com/"
+  },
+  {
+    "Name": "SmashTheStack IO",
+    "Description": "Legacy wargame environment once used for exploitation practice, preserved in many CTF learning references.",
+    "Status": "inactive",
+    "URL": "https://io.smashthestack.org/"
+  }
+]

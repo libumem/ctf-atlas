@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CTF Atlas</title>
+    <meta
+      name="description"
+      content="A searchable atlas of CTF platforms, wargames, labs, and security practice sites."
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="CTF Atlas home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="atlas.png" alt="" />
+        </span>
+        <span>CTF Atlas</span>
+      </a>
+
+      <nav class="header-actions" aria-label="Project links">
+        <a class="icon-link ghost-link" href="./inspiration.html">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 20h9" />
+            <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+          </svg>
+          <span>Inspiration</span>
+        </a>
+        <a
+          class="icon-link"
+          href="https://github.com/dibsy/ctf-atlas"
+          target="_blank"
+          rel="noreferrer"
+          data-repo-link
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5a10.3 10.3 0 0 0-5.5 0C8.5 2 7.5 2 7.5 2a6.6 6.6 0 0 0 0 3.5 5.4 5.4 0 0 0-1 3.5c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+            />
+            <path d="M9 18c-4.51 2-5-2-7-2" />
+          </svg>
+          <span>Submit PR</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-grid">
+          <div>
+            <h1 id="page-title">CTF Atlas</h1>
+            <p class="intro-copy">
+              Capture the flag platforms, wargames, blue-team labs, and security training grounds in one searchable index.
+            </p>
+          </div>
+          <div class="atlas-panel" aria-hidden="true">
+            <img class="atlas-art" src="atlas.png" alt="" />
+            <div class="atlas-readout">
+              <span>atlas://platforms</span>
+              <strong><span id="visual-total">--</span> mapped</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="control-panel" aria-label="Search and filters">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="7" />
+          </svg>
+          <label class="sr-only" for="platform-search">Search platforms</label>
+          <input
+            id="platform-search"
+            type="search"
+            autocomplete="off"
+            placeholder="Search platforms by name, URL, deployment type, or keyword..."
+          />
+          <button class="clear-search" type="button" aria-label="Clear search" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="filter-group" role="group" aria-label="Status filter">
+          <button class="filter-button is-active" type="button" data-status-filter="all">All</button>
+          <button class="filter-button" type="button" data-status-filter="active">Active</button>
+          <button class="filter-button" type="button" data-status-filter="inactive">Inactive</button>
+        </div>
+
+        <div class="filter-group" role="group" aria-label="Hosting filter">
+          <button class="filter-button is-active" type="button" data-hosting-filter="all">All</button>
+          <button class="filter-button" type="button" data-hosting-filter="hosted">Hosted</button>
+          <button class="filter-button" type="button" data-hosting-filter="self-hosted">Self-hosted</button>
+        </div>
+
+        <output class="result-count" id="result-count" for="platform-search">Loading</output>
+      </section>
+
+      <section class="stats-grid" aria-label="Platform statistics">
+        <article>
+          <span>Total</span>
+          <strong id="total-count">--</strong>
+        </article>
+        <article>
+          <span>Active</span>
+          <strong id="active-count">--</strong>
+        </article>
+        <article>
+          <span>Inactive</span>
+          <strong id="inactive-count">--</strong>
+        </article>
+        <article>
+          <span>Self-hosted</span>
+          <strong id="self-hosted-count">--</strong>
+        </article>
+      </section>
+
+      <section class="platform-grid" id="platform-list" aria-live="polite" aria-busy="true"></section>
+      <p class="empty-state" id="empty-state" hidden>No matching platforms found.</p>
+    </main>
+
+    <footer class="site-footer">
+      <a href="https://www.flaticon.com/free-icons/atlas" target="_blank" rel="noreferrer">
+        Atlas icons created by Freepik - Flaticon
+      </a>
+    </footer>
+
+    <template id="platform-card-template">
+      <article class="platform-card">
+        <div class="card-head">
+          <span class="platform-initials" aria-hidden="true"></span>
+          <div>
+            <h2></h2>
+            <div class="badge-row">
+              <span class="status-pill" hidden>Inactive</span>
+              <span class="hosting-pill" hidden>Self-hosted</span>
+            </div>
+          </div>
+        </div>
+        <p class="platform-description"></p>
+        <div class="card-foot">
+          <span class="platform-host"></span>
+          <a class="open-platform" target="_blank" rel="noreferrer" aria-label="Open platform">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15 3h6v6" />
+              <path d="M10 14 21 3" />
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            </svg>
+          </a>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
