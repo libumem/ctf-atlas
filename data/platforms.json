@@ -1,8 +1,34 @@
 [
   {
+    "Name": "+Ma's Reversing",
+    "Description": "A game I hope you and I will enjoy, a source of information which can become useful for reversers, and a way to meet new...",
+    "URL": "http://3564020356.org"
+  },
+  {
+    "Name": "247CTF",
+    "Description": "247CTF is a security environment where hackers can test their abilities across a number of different challenge...",
+    "URL": "https://247ctf.com"
+  },
+  {
+    "Name": "ae27ff",
+    "Description": "Beginner to intermediate puzzles intended to hone user hunting and decoding skills used in Alternate Reality Games.",
+    "URL": "https://ae27ff.com/"
+  },
+  {
     "Name": "Blue Team Labs Online",
     "Description": "Defensive security labs focused on investigations, forensics, malware analysis, and practical blue-team workflows.",
     "URL": "https://blueteamlabs.online/"
+  },
+  {
+    "Name": "bWAPP",
+    "Description": "Buggy Web Application is a deliberately insecure web app with many web vulnerabilities for hands-on training.",
+    "SelfHosted": true,
+    "URL": "https://sourceforge.net/projects/bwapp/"
+  },
+  {
+    "Name": "BrainQuest",
+    "Description": "Brainquest is a slovak riddle site, focused on crypto, steganography and logics. Also there is an category Orbis pictis...",
+    "URL": "https://www.brainquest.sk"
   },
   {
     "Name": "Crackmes.one",
@@ -15,6 +41,11 @@
     "URL": "https://cryptohack.org/"
   },
   {
+    "Name": "CryptoLib",
+    "Description": "CryptoLib is a challenge site focused on cryptography only. It currently offers 11 crypto challs which seem quite...",
+    "URL": "http://web.archive.org/web/20031028160316/http://hayz.ca/"
+  },
+  {
     "Name": "CTFlearn",
     "Description": "Beginner-friendly CTF platform with challenges across common security categories.",
     "URL": "https://ctflearn.com/"
@@ -25,9 +56,58 @@
     "URL": "https://cyberdefenders.org/"
   },
   {
+    "Name": "DVWA",
+    "Description": "Damn Vulnerable Web Application is a deliberately vulnerable web app for practicing common web security issues.",
+    "SelfHosted": true,
+    "URL": "https://github.com/digininja/DVWA"
+  },
+  {
+    "Name": "Damn Vulnerable GraphQL Application",
+    "Description": "Intentionally vulnerable GraphQL service for learning and practicing GraphQL security testing.",
+    "SelfHosted": true,
+    "URL": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application"
+  },
+  {
+    "Name": "CI/CD Goat",
+    "Description": "Deliberately vulnerable CI/CD environment for learning pipeline security through hands-on CTF-style challenges.",
+    "SelfHosted": true,
+    "URL": "https://github.com/cider-security-research/cicd-goat"
+  },
+  {
+    "Name": "CloudGoat",
+    "Description": "Vulnerable-by-design AWS cloud security scenarios for practicing cloud attack paths in isolated environments.",
+    "SelfHosted": true,
+    "URL": "https://github.com/RhinoSecurityLabs/cloudgoat"
+  },
+  {
+    "Name": "Electrica",
+    "Description": "Reverse engineering, cryptography, maths, steganography challenges. Home of the challengers handbook.",
+    "URL": "http://www.caesum.com/game"
+  },
+  {
+    "Name": "elhacker.net",
+    "Description": "We now have site navigation in english and spanish (some tests are only available in spanish). Esta es un wargame, que...",
+    "URL": "http://warzone.elhacker.net"
+  },
+  {
     "Name": "Exploit Education",
     "Description": "Security training projects for memory corruption, exploitation, debugging, and low-level systems practice.",
     "URL": "https://exploit.education/"
+  },
+  {
+    "Name": "Gekko",
+    "Description": "You play the role of a special agent and help your boss, colleagues and friends to tackle down problems in various areas...",
+    "URL": "https://gekko.csokavar.hu"
+  },
+  {
+    "Name": "GemForgeLabs",
+    "Description": "GemForgeLabs is an online learning and challenge platform that provides labs to cover the full breadth and depth of the...",
+    "URL": "https://gemforgelabs.io/"
+  },
+  {
+    "Name": "Giskard Red",
+    "Description": "AI red-team training and challenge platform from Giskard for practicing attacks and defenses around AI systems.",
+    "URL": "https://red.giskard.ai/"
   },
   {
     "Name": "GOAD",
@@ -41,9 +121,34 @@
     "URL": "https://www.hackthebox.com/"
   },
   {
+    "Name": "Hack The Web",
+    "Description": "On Hack The Web, you'll find a playful introduction to the world of hacking. In a variety of challenges, you can put...",
+    "URL": "https://hack.arrrg.de/"
+  },
+  {
+    "Name": "HackBBS",
+    "Description": "Hack en situation réelle.",
+    "URL": "http://hackbbs.org"
+  },
+  {
+    "Name": "Hacker.org",
+    "Description": "The hacker explores the intersection of art and science in an insatiable quest to understand and shape the world around...",
+    "URL": "https://www.hacker.org"
+  },
+  {
     "Name": "Hacker101 CTF",
     "Description": "Web security CTF from HackerOne with progressive challenges for learning bug bounty skills.",
     "URL": "https://ctf.hacker101.com/"
+  },
+  {
+    "Name": "Hacking-Challenges",
+    "Description": "Hacking-Challenges is a german challenge site. In challenges from 8 categories, for example javascript, cryptography,...",
+    "URL": "http://www.hacking-challenges.de"
+  },
+  {
+    "Name": "HackMyVM",
+    "Description": "This site was created around 2020 to provide to people a free platform to play CTF, Challenges, some online labs and to...",
+    "URL": "https://hackmyvm.eu/"
   },
   {
     "Name": "HackThisSite",
@@ -51,9 +156,57 @@
     "URL": "https://www.hackthissite.org/"
   },
   {
+    "Name": "Hellbound Hackers",
+    "Description": "HellBoundHackers is a completely legal, web-based security training ground. They offer challenges that teach you how...",
+    "URL": "http://www.hellboundhackers.org"
+  },
+  {
+    "Name": "Kubernetes Goat",
+    "Description": "Vulnerable-by-design Kubernetes cluster playground for practicing container and Kubernetes security scenarios.",
+    "SelfHosted": true,
+    "URL": "https://github.com/madhuakula/kubernetes-goat"
+  },
+  {
     "Name": "Microcorruption",
     "Description": "Embedded security wargame for reverse engineering firmware and exploiting microcontroller binaries.",
     "URL": "https://microcorruption.com/"
+  },
+  {
+    "Name": "Metasploitable3",
+    "Description": "Vulnerable virtual machine from Rapid7 built with many security flaws for penetration testing practice.",
+    "SelfHosted": true,
+    "URL": "https://github.com/rapid7/metasploitable3"
+  },
+  {
+    "Name": "OWASP Juice Shop",
+    "Description": "Modern deliberately insecure web application used for security training, awareness demos, and CTF-style practice.",
+    "SelfHosted": true,
+    "URL": "https://github.com/juice-shop/juice-shop"
+  },
+  {
+    "Name": "mrradio.kr",
+    "Description": "Mr.Radio (mrradio.kr) is a radio frequency (RF) and satellite signal security wargame platform. Players learn RF basics...",
+    "URL": "https://mrradio.kr/"
+  },
+  {
+    "Name": "MysteryTwister",
+    "Description": "MysteryTwister (MTC3) ===================== This time we are really happy to announce... that experts in the...",
+    "URL": "https://mysterytwister.org/"
+  },
+  {
+    "Name": "Net-Force",
+    "Description": "Net-Force has been around since 2002, starting off as a Dutch website. The site is now only in English and has a diverse...",
+    "URL": "http://www.net-force.nl"
+  },
+  {
+    "Name": "NewbieContest",
+    "Description": "A french site which is not only focused on beginners. Challenge categories are cracking, crypto, hacking, Java/script,...",
+    "URL": "https://www.newbiecontest.org"
+  },
+  {
+    "Name": "Notpron",
+    "Description": "Notpron - \"The hardest riddle available on the Internet\" - Is a linear challenge without ranking. It has around 13 tough...",
+    "URL": "http://www.notpron.org/notpron/"
   },
   {
     "Name": "OverTheWire",
@@ -76,14 +229,54 @@
     "URL": "https://portswigger.net/web-security"
   },
   {
-    "Name": "pwnable.kr",
-    "Description": "Wargame focused on binary exploitation, Linux internals, memory corruption, and low-level security puzzles.",
-    "URL": "https://pwnable.kr/"
+    "Name": "Project Euler",
+    "Description": "Project Euler is a series of challenging mathematical/computer programming problems that will require more than just...",
+    "URL": "http://projecteuler.net"
+  },
+  {
+    "Name": "PromptRiddle",
+    "Description": "PromptRiddle is a fun prompt-based riddle website which requires thinking outside the box along with...",
+    "URL": "https://promptriddle.com"
   },
   {
     "Name": "pwn.college",
     "Description": "Structured cybersecurity education platform with modules for Linux, assembly, exploitation, web, crypto, and more.",
     "URL": "https://pwn.college/"
+  },
+  {
+    "Name": "pwnable.kr",
+    "Description": "Wargame focused on binary exploitation, Linux internals, memory corruption, and low-level security puzzles.",
+    "URL": "https://pwnable.kr/"
+  },
+  {
+    "Name": "pwnable.tw",
+    "Description": "Pwnable.tw is a wargame site for hackers to test and expand their binary exploiting skills.",
+    "URL": "https://pwnable.tw"
+  },
+  {
+    "Name": "PyDéfis",
+    "Description": "PyDéfis offers you small programming challenges (algorithms, computer science, graph theory, recursion, ...) in the...",
+    "URL": "https://pydefis.callicode.fr"
+  },
+  {
+    "Name": "Rankk",
+    "Description": "Rankk's challenges are organised into levels from easy to difficult. The challenges are based on topics ranging from...",
+    "URL": "https://www.rankk.org"
+  },
+  {
+    "Name": "RedTigers Hackit",
+    "Description": "10 SQL Injection challenges. After the final level you can put yourself into the hall of fame. No registration possible.",
+    "URL": "https://redtiger.labs.overthewire.org/"
+  },
+  {
+    "Name": "Reversing.Kr",
+    "Description": "This site tests your ability to Cracking & RCE (Reverse Code Engineering).",
+    "URL": "http://reversing.kr"
+  },
+  {
+    "Name": "Revolution Elite",
+    "Description": "A site based on a detective theme which uses suspect elimination, clues, and more traditional challenge categories to...",
+    "URL": "https://www.revolutionelite.co.uk"
   },
   {
     "Name": "RingZer0 Team Online CTF",
@@ -96,15 +289,67 @@
     "URL": "https://www.root-me.org/"
   },
   {
+    "Name": "OWASP Security Shepherd",
+    "Description": "Web and mobile application security training platform with intentionally vulnerable lessons and challenges.",
+    "SelfHosted": true,
+    "URL": "https://github.com/OWASP/SecurityShepherd"
+  },
+  {
+    "Name": "OWASP WrongSecrets",
+    "Description": "Vulnerable application for practicing secrets-management failures and learning how not to handle secrets.",
+    "SelfHosted": true,
+    "URL": "https://github.com/OWASP/wrongsecrets"
+  },
+  {
+    "Name": "SPOJ",
+    "Description": "SPOJ (Sphere Online Judge) is an online judge system with thousands of programming challenges. The solutions to...",
+    "URL": "https://www.spoj.com"
+  },
+  {
+    "Name": "Starfleet Academy",
+    "Description": "A nice challenge site for beginners. No need to register at Starfleet Academy for 10 nice javascript levels. I guess it...",
+    "URL": "http://isatcis.com/"
+  },
+  {
+    "Name": "SuNiNaTaS",
+    "Description": "SuNiNaTaS have 15 games : Web(8), Cracking(4), Forensic(3) Skill level is medium. We are good hackers.",
+    "URL": "http://suninatas.com"
+  },
+  {
+    "Name": "TDHack",
+    "Description": "TDHack (Think Devise Hack) is the first polish challenge site, launched in September 2004. The challenges cover a wide...",
+    "URL": "https://www.tdhack.com"
+  },
+  {
+    "Name": "TheBlackSheep",
+    "Description": "This site offers challenges in almost any category from easy to difficult. It has a nice user-interface, including an...",
+    "URL": "http://www.bright-shadows.net"
+  },
+  {
+    "Name": "try to decrypt",
+    "Description": "Little game to train your brain - try to decrypt some texts in different levels from easy to hard. Can you enter the...",
+    "URL": "https://www.trytodecrypt.com"
+  },
+  {
     "Name": "TryHackMe",
     "Description": "Guided cybersecurity learning platform with rooms, paths, labs, CTF-style exercises, and team training.",
     "URL": "https://tryhackme.com/"
+  },
+  {
+    "Name": "TryThis0ne",
+    "Description": "Trythis0ne is a system of Hacking\\Reversing\\Encryption etc' challenges. Every challenge challenge the user in different...",
+    "URL": "http://www.trythis0ne.com"
   },
   {
     "Name": "VulnHub",
     "Description": "Archive of vulnerable virtual machines and boot-to-root practice boxes for offline lab environments.",
     "SelfHosted": true,
     "URL": "https://www.vulnhub.com/"
+  },
+  {
+    "Name": "W3Challs",
+    "Description": "0% simulation & guessing. Hacking challenges only! Wargames (from classic linux/x86 to hardened kernel exploits),...",
+    "URL": "https://w3challs.com/"
   },
   {
     "Name": "Webhacking.kr",
@@ -117,15 +362,482 @@
     "URL": "https://www.wechall.net/"
   },
   {
+    "Name": "World of Wargame",
+    "Description": "World of Wargame is a challenge site running from 2009 with more than a hundred challenges varying from easy to medium...",
+    "URL": "https://wow.sinfocol.org/"
+  },
+  {
+    "Name": "Énigmes À Thématiques",
+    "Description": "Énigmes À Thématiques, c'est une nouvelle énigme inédite qui sort chaque jour dans des domaines aussi variés que...",
+    "URL": "https://enigmes-a-thematiques.fr"
+  },
+  {
+    "Name": "Android InsecureBankv2",
+    "Description": "Vulnerable Android banking application for practicing mobile security testing and common Android weaknesses.",
+    "SelfHosted": true,
+    "URL": "https://github.com/dineshshetty/Android-InsecureBankv2"
+  },
+  {
+    "Name": "CloudFoxable",
+    "Description": "Vulnerable-by-design AWS playground for practicing cloud enumeration, privilege escalation, and attack paths.",
+    "SelfHosted": true,
+    "URL": "https://github.com/BishopFox/cloudfoxable"
+  },
+  {
+    "Name": "CMD Challenge",
+    "Description": "Hosted command-line challenge game for practicing shell skills through short terminal puzzles.",
+    "URL": "https://cmdchallenge.com/"
+  },
+  {
+    "Name": "Cryptopals",
+    "Description": "Classic cryptography challenge set focused on implementing and breaking real-world crypto constructions.",
+    "URL": "https://cryptopals.com/"
+  },
+  {
+    "Name": "Damn Vulnerable DeFi",
+    "Description": "Smart contract security training ground with deliberately vulnerable DeFi challenges.",
+    "SelfHosted": true,
+    "URL": "https://github.com/theredguild/damn-vulnerable-defi"
+  },
+  {
+    "Name": "Damn Vulnerable iOS App",
+    "Description": "Intentionally vulnerable iOS app for practicing mobile application security testing in a legal lab.",
+    "SelfHosted": true,
+    "URL": "https://github.com/prateek147/DVIA-v2"
+  },
+  {
+    "Name": "Damn Vulnerable NodeJS Application",
+    "Description": "Deliberately vulnerable Node.js application for learning common web and API security flaws.",
+    "SelfHosted": true,
+    "URL": "https://github.com/appsecco/dvna"
+  },
+  {
+    "Name": "Hackazon",
+    "Description": "Archived vulnerable web app from Rapid7 that simulates a modern online storefront for security testing practice.",
+    "SelfHosted": true,
+    "URL": "https://github.com/rapid7/hackazon",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Hacksplaining",
+    "Description": "Interactive secure coding lessons covering common web vulnerabilities and defensive patterns.",
+    "URL": "https://www.hacksplaining.com/"
+  },
+  {
+    "Name": "IAM Vulnerable",
+    "Description": "Terraform-based AWS IAM privilege escalation playground for practicing identity and access misconfiguration attacks.",
+    "SelfHosted": true,
+    "URL": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "Name": "Kontra",
+    "Description": "Hosted application security training platform with interactive exercises for web, API, cloud, mobile, and DevOps topics.",
+    "URL": "https://application.security/"
+  },
+  {
+    "Name": "LetsDefend",
+    "Description": "Blue-team training platform with SOC investigations, incident response exercises, and defensive security labs.",
+    "URL": "https://letsdefend.io/"
+  },
+  {
+    "Name": "OWASP crAPI",
+    "Description": "Completely Ridiculous API is a vulnerable-by-design API lab for practicing OWASP API security risks.",
+    "SelfHosted": true,
+    "URL": "https://github.com/OWASP/crAPI"
+  },
+  {
+    "Name": "OWASP Mutillidae II",
+    "Description": "Deliberately vulnerable web application for web security labs, classrooms, CTF practice, and assessment targets.",
+    "SelfHosted": true,
+    "URL": "https://github.com/webpwnized/mutillidae"
+  },
+  {
+    "Name": "OWASP NodeGoat",
+    "Description": "Vulnerable Node.js application for learning how OWASP Top 10 risks appear in JavaScript web apps.",
+    "SelfHosted": true,
+    "URL": "https://github.com/OWASP/NodeGoat"
+  },
+  {
+    "Name": "OWASP RailsGoat",
+    "Description": "Deliberately vulnerable Ruby on Rails application for learning and testing common web application flaws.",
+    "SelfHosted": true,
+    "URL": "https://github.com/OWASP/railsgoat"
+  },
+  {
+    "Name": "OWASP ServerlessGoat",
+    "Description": "Vulnerable serverless application for practicing common serverless security flaws and cloud-native attack paths.",
+    "SelfHosted": true,
+    "URL": "https://github.com/OWASP/Serverless-Goat"
+  },
+  {
+    "Name": "OWASP WebGoat",
+    "Description": "Deliberately insecure web application maintained by OWASP for teaching application security lessons.",
+    "SelfHosted": true,
+    "URL": "https://github.com/WebGoat/WebGoat"
+  },
+  {
+    "Name": "ROP Emporium",
+    "Description": "Binary exploitation challenge site focused on return-oriented programming techniques and practice binaries.",
+    "URL": "https://ropemporium.com/"
+  },
+  {
+    "Name": "Sadcloud",
+    "Description": "Terraform-based tool for deploying intentionally insecure AWS infrastructure for cloud security training.",
+    "SelfHosted": true,
+    "URL": "https://github.com/nccgroup/sadcloud"
+  },
+  {
+    "Name": "SadServers",
+    "Description": "Hosted Linux, DevOps, and SRE troubleshooting labs built around realistic broken-server scenarios.",
+    "URL": "https://sadservers.com/"
+  },
+  {
+    "Name": "SecureFlag",
+    "Description": "Hands-on secure coding training platform with real-world labs for developers, DevOps, cloud, and QA engineers.",
+    "URL": "https://www.secureflag.com/"
+  },
+  {
+    "Name": "TerraGoat",
+    "Description": "Vulnerable-by-design Terraform project for learning cloud infrastructure misconfiguration risks.",
+    "SelfHosted": true,
+    "URL": "https://github.com/bridgecrewio/terragoat"
+  },
+  {
+    "Name": "UnderTheWire",
+    "Description": "PowerShell-focused wargames for learning Windows command line, scripting, and security fundamentals.",
+    "URL": "https://underthewire.tech/wargames"
+  },
+  {
+    "Name": "vAPI",
+    "Description": "Self-hostable vulnerable API lab that mimics OWASP API Top 10 scenarios through exercises.",
+    "SelfHosted": true,
+    "URL": "https://github.com/roottusk/vapi"
+  },
+  {
+    "Name": "Vulhub",
+    "Description": "Docker Compose collection of prebuilt vulnerable environments for reproducing and practicing known vulnerabilities.",
+    "SelfHosted": true,
+    "URL": "https://github.com/vulhub/vulhub"
+  },
+  {
+    "Name": "Vulnmachines",
+    "Description": "Hosted cybersecurity learning platform with browser-based CTF labs across web hacking, cloud, blockchain, and OSINT.",
+    "URL": "https://www.vulnmachines.com/"
+  },
+  {
+    "Name": "XSS Game",
+    "Description": "Hosted cross-site scripting challenge game for learning browser injection basics through progressive levels.",
+    "URL": "https://xss-game.appspot.com/"
+  },
+  {
+    "Name": "Aspect v2",
+    "Description": "Aspect Version 2 is a challenge site with a real storyline. You have to solve the challenges in order to make your way...",
+    "URL": "http://aspectgames.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Astalavista",
+    "Description": "Astalavista.com - Home of the fiendish challenges",
+    "URL": "http://www.astalavista.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Black Zero",
+    "Description": "Black Zero is a new community of hacking, coding, and lock picking enthusiasts. The site offers over 50 interactive...",
+    "URL": "http://www.black-zero.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Can You Hack It?®",
+    "Description": "The Can You Hack It?® Challenge was created by Assured Information Security (AIS) engineers to test the skills of...",
+    "URL": "https://www.canyouhackit.com/"
+  },
+  {
+    "Name": "CanHackMe",
+    "Description": "Have fun challenges!",
+    "URL": "https://canhack.me",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Challengeland",
+    "Description": "Challengeland is a site of war games to learn and improve your hacking skills created by Redexel and Germanlm93",
+    "URL": "http://challengeland.co",
+    "Status": "inactive"
+  },
+  {
+    "Name": "CodeShell.kr",
+    "Description": "This website provides various challenges that require computer hacking skills to solve. To solve a challenge, you'll...",
+    "URL": "http://codeshell.kr",
+    "Status": "inactive"
+  },
+  {
+    "Name": "CSTutoringCenter",
+    "Description": "CSTutoringCenter.com provides many different kinds of challenges. You are free to solve them in any language and with...",
+    "URL": "http://www.cstutoringcenter.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "CTFS.ME",
+    "Description": "Ctfs.me is a place where you can learn about various category of hacking everytime and get you skill increased.",
+    "URL": "https://ctfs.me",
+    "Status": "inactive"
+  },
+  {
+    "Name": "DareYourMind",
+    "Description": "More than 180 challs. Javascript, Cracking, Crypto, Stegano, Realistic challs (SQL, Authentication, ...), Logic,...",
+    "URL": "http://used.to.be/www.dareyourmind.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Defend the Web",
+    "Description": "An interactive security platform where you can learn and challenge your skills.",
+    "URL": "https://defendtheweb.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Disavowed.net",
+    "Description": "One of the original challenges! Disavowed.net is once again available to play (hosted within Mod-X). Enjoy!",
+    "URL": "http://www.mod-x.co.uk/disavowed/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "EnigmaGroup",
+    "Description": "Since 2005, Enigma Group has been providing its members a legal and safe security resource where they can develop their...",
+    "URL": "http://www.enigmagroup.org",
+    "Status": "inactive"
+  },
+  {
     "Name": "Exploit Exercises",
     "Description": "Legacy exploitation challenge collection superseded by Exploit Education and kept here for historical reference.",
     "Status": "inactive",
     "URL": "https://exploit-exercises.com/"
   },
   {
+    "Name": "Hack-Me",
+    "Description": "Hack-Me is one of the best challenge site in south korea, launched in this month. The challenges cover a wide range of...",
+    "URL": "http://hack-me.org",
+    "Status": "inactive"
+  },
+  {
+    "Name": "hackburger",
+    "Description": "(mainly) web security challenges by Laboratorium EE.",
+    "URL": "http://hackburger.ee/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Hacker Gateway",
+    "Description": "The go-to place for hackers who want to put their skills to the test.",
+    "URL": "https://www.hackergateway.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Hackits.de",
+    "Description": "Hackits.de is currently under maintainance. Hopefully they will be back soon and support wechall script interaction",
+    "URL": "http://www.hackits.de",
+    "Status": "inactive"
+  },
+  {
+    "Name": "HackQuest",
+    "Description": "Hackquest offers challenges from all kind of computer-sections The site keeps track of a users spent time on a...",
+    "URL": "http://www.hackquest.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Happy-Security",
+    "Description": "Happy-Security is a german challenge site. {also translated in english} Beside the 'normal' challenge sections, there...",
+    "URL": "https://www.happy-security.de",
+    "Status": "inactive"
+  },
+  {
+    "Name": "hax.tor.hu",
+    "Description": "HaX.ToR.Hu is a challenge site putting emphasis on teaching basic security related issues in a fun way. Players get a...",
+    "URL": "http://hax.tor.hu",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Hispabyte",
+    "Description": "Wargame de Hispabyte, zona práctica de un sitio dedicado a la seguridad, informática y programación. Wargame of...",
+    "URL": "http://hispabyte.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "infomirmo",
+    "Description": "A new French site turned to the learning of the computing through the SOSI challenge. SOSI is a linear challenge with a...",
+    "URL": "http://www.infomirmo.fr",
+    "Status": "inactive"
+  },
+  {
+    "Name": "IRISSCON 2012 Lost Challenges",
+    "Description": "This site includes the challenges I made for IRISSCON 2012 CTF. However due to the large number of submissions, these...",
+    "URL": "http://damienoreilly.org/ctf",
+    "Status": "inactive"
+  },
+  {
+    "Name": "listbrain.tk",
+    "Description": "Another english site",
+    "URL": "http://listbrain.awardspace.biz",
+    "Status": "inactive"
+  },
+  {
+    "Name": "LordofSQLi",
+    "Description": "LoS provides 49 stepwise SQLinjection challenges. Challenges are about SQLinjection at mysql, sqlite, mssql, mongodb,...",
+    "URL": "https://los.rubiya.kr/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "LOST-Chall",
+    "Description": "A site based on the TV show Lost. Challenges range from easy to hard. Non-Lost fans will find this enjoyable too!",
+    "URL": "http://www.lost-chall.org",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Mathchall",
+    "Description": "Mathchall is requiring the mind to use pure intelligence in the attainment of pure truth. ---Now you can maximize you...",
+    "URL": "http://www.mathchall.com/en",
+    "Status": "inactive"
+  },
+  {
+    "Name": "MiBs Challenges",
+    "Description": "MiBs Challenges is a German riddle site started in 2005 with over 150 challenges in 9 categories including math,...",
+    "URL": "https://www.mibs-challenges.de",
+    "Status": "inactive"
+  },
+  {
+    "Name": "No Such Con 2013",
+    "Description": "The HES/NSC 2013 challenges. Still available thanks to Steven from overthewire.org!",
+    "URL": "http://2013.hackitoergosum.org/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "NOE.systems",
+    "Description": "NOE.systems is a wargame site where you can practice a variety of hacking techniques related to information security in...",
+    "URL": "http://noe.systems",
+    "Status": "inactive"
+  },
+  {
+    "Name": "osix",
+    "Description": "Home of the GEEK Challenges. We are a community of developers and IT enthusiasts interested in sharing ideas, writing...",
+    "URL": "http://www.osix.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "PWN.TN",
+    "Description": "PWN.TN is an educational and non commercial wargame. There is various IT security related challenges for fun and...",
+    "URL": "https://pwn.tn",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Right-Answer",
+    "Description": "This website want to make you think and learn in several chall spread over several categories such as logic,...",
+    "URL": "http://www.right-answer.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "RoseCode",
+    "Description": "This site publishes mostly math based programming challenges. Other topics include Crypto, Brainfck, Hacking, and...",
+    "URL": "http://www.javaist.com/rosecode",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Security Override",
+    "Description": "Here at SecurityOverride, we offer pen-testing tutorials, hacking challenges, security articles, security forums,...",
+    "URL": "http://securityoverride.org",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Security Traps",
+    "Description": "The newest Polish professional challenge site. We focus on quality, difficulty and originality of the tasks, not...",
+    "URL": "https://www.securitytraps.pl/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Show Your Skills",
+    "Description": "sys.warchall.net is a polish website with a lot of challenges. You can find here hackmes, crackmes, cryptography...",
+    "URL": "http://sys.warchall.net",
+    "Status": "inactive"
+  },
+  {
     "Name": "SmashTheStack IO",
     "Description": "Legacy wargame environment once used for exploitation practice, preserved in many CTF learning references.",
     "Status": "inactive",
     "URL": "https://io.smashthestack.org/"
+  },
+  {
+    "Name": "SolveMe",
+    "Description": "I closed this wargame.",
+    "URL": "http://solveme.peng.kr",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Stereotyped Challenges",
+    "Description": "\"Stereotyped Challenges\" provides advanced web-based security challenges that guides you to the latest trend of web...",
+    "URL": "https://chall.stypr.com/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Tasteless",
+    "Description": "Tasteless challenges, several levels that will test you in security and logical thinking",
+    "URL": "http://chall.tasteless.eu",
+    "Status": "inactive"
+  },
+  {
+    "Name": "THC Hack Challenges",
+    "Description": "THC is a hack challenge and tournament site for newbies and more advanced hackers. You start off with the easier...",
+    "URL": "http://www.hackchallenge.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "thebackupbox",
+    "Description": "Your description is invalid. It has to be 12-4096 characters long.",
+    "URL": "https://hack.thebackupbox.net",
+    "Status": "inactive"
+  },
+  {
+    "Name": "ThisisLegal.com",
+    "Description": "Welcome to Thisislegal, a hacker wargames site but also with much more - such as forums and tutorials.",
+    "URL": "https://www.thisislegal.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Valhalla",
+    "Description": "Valhalla is a place for sharing knowledge and ideas. Valhalla allows users to submit code, as well as science,...",
+    "URL": "https://halls-of-valhalla.org",
+    "Status": "inactive"
+  },
+  {
+    "Name": "wargame.kr",
+    "Description": "this `wargame.kr` has challenges for web, system, reversing, etc.. i will trying to add more challenges, have a lotta...",
+    "URL": "http://wargame.kr",
+    "Status": "inactive"
+  },
+  {
+    "Name": "wixxerd.com",
+    "Description": "A collection of crackme's, hackme's, puzzles and games. Some are pretty simple, some... not so much...",
+    "URL": "https://www.wixxerd.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Yashira",
+    "Description": "Yashira es un sitio en español dedicado a retos informáticos,ciencias e ingenio.",
+    "URL": "http://www.yashira.org",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Yoire",
+    "Description": "Wargame oriented site for having fun and learn hacking :)",
+    "URL": "http://yoire.com",
+    "Status": "inactive"
+  },
+  {
+    "Name": "Zero Identity",
+    "Description": "A nice challenge site with a lot of functionality to interconnect the users. Will join soon",
+    "URL": "http://www.zeroidentity.org/",
+    "Status": "inactive"
+  },
+  {
+    "Name": "µContest",
+    "Description": "FRENCH/ENGLISH : µContest is a programming challenges website. The challs can be about cryptgraphy, algorithmic,...",
+    "URL": "http://www.microcontest.com",
+    "Status": "inactive"
   }
 ]

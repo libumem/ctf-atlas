@@ -1,4 +1,5 @@
 const DATA_URL = "./data/platforms.json";
+const ASSET_VERSION = "20260617-more-platforms-batch";
 const REPOSITORY_URL = "https://github.com/dibsy/ctf-atlas";
 const ALLOWED_URL_PROTOCOLS = new Set(["http:", "https:"]);
 
@@ -208,7 +209,7 @@ function setHostingFilter(filter) {
 
 async function loadPlatforms() {
   try {
-    const response = await fetch(DATA_URL);
+    const response = await fetch(`${DATA_URL}?v=${ASSET_VERSION}`, { cache: "no-store" });
 
     if (!response.ok) {
       throw new Error(`Could not load ${DATA_URL}`);

@@ -16,6 +16,14 @@ Then open `http://127.0.0.1:5173/`.
 
 Platforms live in `data/platforms.json`.
 
+Many entries were seeded from WeChall's public all-sites pages:
+
+- https://www.wechall.net/all_sites/by///page-1
+- https://www.wechall.net/all_sites/by///page-2
+- https://www.wechall.net/all_sites/by///page-3
+
+WeChall entries marked `site_dead` or `site_down` are stored with `"Status": "inactive"`.
+
 ```json
 {
   "Name": "Example Platform",
