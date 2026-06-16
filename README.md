@@ -1,5 +1,7 @@
 # CTF Atlas
 
+Site : https://dibsy.github.io/ctf-atlas/
+
 A searchable CTF platform atlas built with plain HTML, CSS, JavaScript, and JSON data.
 
 The project also includes an `inspiration.html` page with the story behind the atlas.
