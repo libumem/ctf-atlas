@@ -446,6 +446,22 @@
     "URL": "https://github.com/OWASP/crAPI"
   },
   {
+    "Name": "OpenSecurityTraining2",
+    "Description": "Courses on firmware attack/defense, reverse engineering, C/C++ bug classes, kernel exploitation, fuzzing and more",
+    "URL": "https://ost2.fyi/"
+  },
+  {
+    "Name": "Offsec Proving Grounds",
+    "Description": "Experience a wide range of lab topics for any level of skill with Proving Ground’s realistic environments.",
+    "URL": "https://www.offsec.com/products/proving-grounds/"
+  },
+  {
+    "Name":"malwareunicorn workshops",
+    "Description": "Hands-on labs. Downloadable VMs. Real malware samples.",
+    "SelfHosted": true,
+    "URL": "https://malwareunicorn.org/#/workshops"
+  },
+  {
     "Name": "OWASP Mutillidae II",
     "Description": "Deliberately vulnerable web application for web security labs, classrooms, CTF practice, and assessment targets.",
     "SelfHosted": true,
